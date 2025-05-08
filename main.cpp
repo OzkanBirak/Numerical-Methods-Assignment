@@ -65,6 +65,6 @@ int main() {
         cout << "\nFinal estimated root: " << root << endl;
     }
 
-    cout << "\nThank you for using this special solver made just for you!\n";
+    cout << "\nThank you for using this special solver made just for you! :)\n";
     return 0;
 }
