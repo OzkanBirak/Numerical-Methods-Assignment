@@ -51,7 +51,7 @@ int main() {
 
     cout << "------------------------------------------------------------\n";
     cout << "Bu C++ kodu, bir matematiksel fonksiyonun kökünü\n";
-    cout << "(yani, fonksiyonun değerinin sıfır olduğu noktayı) Sekant Metodu kullanarak bulan bir programdır";
+    cout << "(yani, fonksiyonun değerinin sıfır olduğu noktayı) Sekant Metodu kullanarak bulan bir programdır\n";
     cout << "------------------------------------------------------------\n";
 
     double x0 = 1.0;
