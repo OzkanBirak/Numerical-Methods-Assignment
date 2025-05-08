@@ -34,7 +34,7 @@ double secantMethod(double x0, double x1, double tol, int max_iter) {
         cout << i << "\t" << x0 << "\t" << x1 << "\t" << x2 << "\t" << f2 << endl;
 
         if (fabs(x2 - x1) < tol) {
-            cout << "\n🎉 Converged to a root after " << i << " iterations.\n";
+            cout << "\nConverged to a root after " << i << " iterations.\n";
             return x2;
         }
 
