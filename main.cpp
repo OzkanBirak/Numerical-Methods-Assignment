@@ -4,13 +4,10 @@
 
 using namespace std;
 
-// 💡 Your custom function: Change it as you like!
 double myFunction(double x) {
-    // Example: f(x) = x^3 - x - 2
     return pow(x, 3) - x - 2;
 }
 
-// 🚀 The Secant Method
 double secantMethod(double x0, double x1, double tol, int max_iter) {
     double x2;
 
