@@ -5,6 +5,7 @@
 using namespace std;
 
 double myFunction(double x) {
+    //Fonksiyonu istediğiniz gibi değiştirebilirsiniz Tülay Hocam! Ben örnek olması açısından bunu yazıyorum:
     return pow(x, 3) - x - 2;
 }
 
@@ -47,6 +48,11 @@ int main() {
     cout << "===============================================\n";
     cout << "   Welcome to Your Custom Secant Root Solver!\n";
     cout << "===============================================\n\n";
+
+    cout << "------------------------------------------------------------\n";
+    cout << "Bu C++ kodu, bir matematiksel fonksiyonun kökünü\n";
+    cout << "(yani, fonksiyonun değerinin sıfır olduğu noktayı) Sekant Metodu kullanarak bulan bir programdır";
+    cout << "------------------------------------------------------------\n";
 
     double x0 = 1.0;
     double x1 = 2.0;
